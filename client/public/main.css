@@ -4,14 +4,21 @@ body {
   font-family: Arial;
 }
 
-header {
+/* header {
   display: inline-block;
   margin: 15px 0 15px 80px;
+} */
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
 }
 
-h1, h2 {
+h2 {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
+  margin: -15px 0 35px 0;
 }
 
 canvas {
@@ -24,9 +31,29 @@ canvas {
               linear-gradient(127deg, rgba(255, 229, 0,.8), rgba(255, 229, 0,0) 45.99%);
   opacity: .9;
   width:  850px;
-  margin: 0 0 0 80px;
+  margin: 0 30px 0 0px;
   border-radius: 5px;
+  float: right;
+}
+
+#instructions {
   float: left;
+  margin-left: 80px;
+}
+
+#instructions h2 {
+  text-align: left;
+  margin: 0;
+  font-size: 26px;
+}
+
+p {
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.align-paragraph {
+  margin-left: 17px;
 }
 
 button {
@@ -84,22 +111,6 @@ button:hover {
   border: 1px solid #001942;
   border-bottom: 2px solid #001942;
 }
-
-#instructions {
-  float: right;
-  margin-right: 30px;
-}
-
-p {
-  line-height: 1.6;
-  color: #ffffff;
-}
-
-.align-paragraph {
-  margin-left: 17px;
-}
-
-
 
 /* #host, #start-new-game, #reveal-prize, #switch {
   display: none;
