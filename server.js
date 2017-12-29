@@ -4,7 +4,7 @@ var path = require('path');
 
 app.use(express.static('client/public'));
 
-app.get('/evening-lake-68533.herokuapp.com', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile('index.html');
 });
 
