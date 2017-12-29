@@ -4,7 +4,7 @@ var path = require('path');
 
 app.use(express.static('client/public'));
 
-app.get('/', function (req, res) {
+app.get('/evening-lake-68533.herokuapp.com', function (req, res) {
   res.sendFile('index.html');
 });
 
@@ -13,5 +13,5 @@ var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
 
-  console.log('Example app listening at http://%s:%s', host, port);
+  // console.log('Example app listening at http://%s:%s', host, port);
 });
